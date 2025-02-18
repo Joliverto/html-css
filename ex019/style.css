@@ -1,0 +1,41 @@
+@charset "UTF-8";  /* REGRA para evitar problemas referentes a acentuação na página */
+
+/*
+    em HTML é "id =" em CSS é "#" (Só pode um elemento)
+    em HTML é "class =" em CSS é "." (Pode vários elementos)
+*/
+
+body {
+    background-color: rgb(221, 233, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+h1#principal {             /* também pode ser usado apenas "#principal" sem mencionar a tag "h1". */
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(86, 131, 86);
+}
+
+.basico {
+    color: rgb(86, 131, 86);
+}
+
+.intermediario {
+    color: rgb(131, 127, 86);
+}
+
+.avancado {
+    color: rgb(131, 86, 86);
+}
+
+.destaque {
+    background-color: rgba(204, 204, 101, 0.336);
+}

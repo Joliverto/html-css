@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelos de caixas pt 2</title>
+    <style>
+
+        h1 {
+            background-color: lightgray;
+
+            height: 300px;
+            width: 300px;
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; */
+
+            /* modelo shorthand: seguindo a sequencia acima: width, style e color. */
+
+            border: 10px solid darkslategray;
+
+            /* forma padrão: */
+
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            /* agora utilizando um shorthand, ficaria com o exemplo abaixo seguindo a regra: cima,direita,baixo,esquerda. */
+
+            /* padding: 10px 10px 10px 10px;  */
+
+            /* se todas forem iguais, vc pode otimizar e digitar apenas 10px para padding como no exemplo abaixo */
+
+            padding: 10px;
+
+
+            /* margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px; */
+
+            /* se eu colocar apenas dois valores, ele vai duplicar, por exemplo, os primeiros 10px vai representar top e bottom, e o segundo 20px vai representar direita e esquerda.
+            
+            Ou seja, se você escolhe os 4 valores é padrão, se vc junta todos e faz a ordem cima,direita,baixo,esquerda com shortand e no ultimo se vc colocar só 2 valores ele faz um shorthand que iguala top/bottom e direita/esquerda*/
+
+            /* margin: 10px 20px; */
+
+            /* para centralizar no modo shorthand com 4 valores, também existe essa possibilidade abaixo, onde se coloca os lados(right,left) com valores em "auto", centralizando a box no centro da página. */
+
+            margin: 100px auto 100%px auto;
+
+            /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+
+            /* modelo shorthand de 3 valores(width,style,color) para o "outline"*/
+
+            outline: 5px dashed salmon;
+           
+            /* e para centralizar uma box no meio da página também basta mandar um margin com valor auto, exemplo abaixo: */
+
+            /* margin: auto; */
+        }
+
+        a { /* inline-level */
+
+            display: block; /* para alterar o modelo box-inline-level para box-block-level */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="">linkssão exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

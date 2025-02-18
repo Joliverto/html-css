@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    /* font-family: "Kaushan Script", serif; */
+    font-family: "Fredericka the Great", serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Kaushan Script", serif;
+    font-size: 2em;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 20px;            /* Espaço interno */
+    border-radius: 8px;       /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    max-width: 400px;         /* Largura máxima */
+    width: 100%;              /* Largura responsiva */
+    text-align: justify;
+    margin: auto;             /* centraliza o conteúdo no meio da página */
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Profile</title>
+    <style>
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /* background-color: rgba(0, 0, 0, 0.904);  */
+            background-color: #0d1117;
+        }
+
+        #profile-card {
+            /* background-color: bisque; */
+            background-color: rgba(255, 255, 255, 0.952);
+            padding: 50px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(139, 119, 94, 0.479);
+        }
+
+        #profile-card:hover {
+            background-color: rgba(98, 243, 243, 0.63);
+        }
+
+        .profile-picture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            text-align: justify;
+            border-radius: 50%;
+        }
+
+        .picture {
+            border-radius: 10px;
+        }
+
+        .profile-bio {
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            text-align: center;
+        }
+
+        .contact-buttom:hover {
+            background-color: rgba(172, 207, 101, 0.616);
+         }
+
+        .contact-buttom:focus {
+            color: red;
+        }
+
+        .bio::before {
+            content: 'Sobre mim: ';
+            font-weight: bolder;
+        }
+
+        .name::before {
+            content: '✦ ';
+        }
+
+        .name::after {
+            content: ' ✦';
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="profile-card">
+        <div class="profile-picture">
+            <img class="picture" src="https://t.ctcdn.com.br/LH0-pVW87nALWza-n2YXafNP-ng=/768x432/smart/i598772.jpeg" alt="Profile Picture">
+        </div>
+        <div class="profile-bio">
+            <h2 class="name">John Grandchild</h2> 
+            <p class="bio">Fullstack Developer | HTML and CSS entusiast | BK Lover</p>
+            <button class="contact-buttom">Contact</button>
+        </div>
+    </div>
+    
+</body>
+</html>
