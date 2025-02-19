@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+
+
+            /* height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat;
-            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: cover; */
+
+
             /* background-size: auto; "deixa a imagem de forma automatica fazendo com que o navegador decida o tamanho da imagem porém fica cortada" */
 
             /* background-size: contain; "deixa a imagem no tamanho total dela sem picotar independente do tamanho do view port" */
 
             /* background-size: 100% 100%; "definir por porcentagens a adaptação da imagem porém isso altera a qualidade da imagem de acordo com o tamanho do viewport" */
+
+
+            /* background-attachment: fixed; */
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat /*cover*/ fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
