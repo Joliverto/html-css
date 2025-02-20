@@ -1,6 +1,7 @@
 Cordel Moderno
 Por Milton Duarte
 [SITE: https://www.recantodasletras.com.br/poesias/3186743]
+[SITE DO PROJETO PRONTO: https://professorguanabara.github.io/projeto-cordel/]
 
 Estou ficando cansado
 Da tal tecnologia
