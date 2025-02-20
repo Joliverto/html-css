@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#container {
+    display: flexbox;
+    background-color: grey;
+    width: 100vh;
+    height: 500px;
+}
+
+.fundo1 {
+    display: block;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    width: 100vh;
+    height: 500px;
+}
+
+div.fundo1 p {
+    background-color: gray;
+}
+
+.frase1 {
+    background-color: rgba(255, 255, 255, 0.199);
+    padding: 10px 20px;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+.fundo2 {
+    display: block;
+    background-color: green;
+    width: 100%;
+    height: 250px;
+
+}
