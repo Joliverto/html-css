@@ -44,6 +44,10 @@
             font-weight: bold;
         }
 
+        .cnotas {
+            background-color: green;
+        }
+
     </style>
 </head>
 <body>
@@ -51,17 +55,25 @@
     <h1>Documento Escolar</h1>
 
     <table>
+        <colgroup>
+            <col class="carea">
+            <col class="cdisciplinas">
+            <col class="cnotas" span="2">
+            <!-- <col class="cnota1">
+            <col class="cnota2"> -->
+            <col class="cmedia">
+        </colgroup>
         <caption></caption>
         <thead>
             <tr>
-                <th rowspan="2" scope="colgroup">Área</th>
-                <th rowspan="2" scope="colgroup">Disciplinas</th>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
                 <th colspan="2" scope="colgroup">Notas</th>
-                <th rowspan="2" scope="colgroup">Média</th>
+                <th rowspan="2" scope="col">Média</th>
             </tr>
             <tr>
-                <th scope="colgroup">Nota 1</th>
-                <th scope="colgroup">Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
