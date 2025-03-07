@@ -26,11 +26,11 @@ main {
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301); */
     padding: 10px;
 }
 
-img#phone {
+img {
     display: block;
     margin: auto;
 }
