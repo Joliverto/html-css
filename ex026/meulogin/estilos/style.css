@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: rgb(109, 39, 109);
+    
+    position: relative;
+
+    height: 100vh;
+    width: 96vw;
+    
+}
+
+main {
+    background-image: url('../../imagens/back-pc.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 600px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main > div {
+    display: block;
+    height: 323px;
+}
+
+main > article {
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+article > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+article p {
+    padding: 10px;
+}
+
+article > form > p {
+    background-color: yellow;
+}
+
+input#ilogin, input#isenha {
+    background-color: rgba(0, 128, 0, 0.301);
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(109, 39, 109);
+}
