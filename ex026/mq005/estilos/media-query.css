@@ -8,14 +8,15 @@
     }
 
     menu {
-        display: inline;
+        display: block;
     }
 
     menu > ul > li {
-        display: inline;
-    }
-
-    menu > ul > li > a {
         display: inline-block;
     }
+
+    main {
+        width: 768px;
+    }
+
 }
