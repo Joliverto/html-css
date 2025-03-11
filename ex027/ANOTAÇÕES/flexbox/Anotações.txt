@@ -25,3 +25,14 @@ ANOTAÇÕES DE flex-direction.
 
         >> Há também o 'flex-wrap: wrap-reverse;' que vai inverter a direção transversal da quebra de itens dentro do container.
 
+> flex-flow (SHORTHAND)
+    Abreviação das propriedades 'flex-direction' + 'flex-wrap'. Ou seja:
+        Ao invés de colocar duas propriedades:
+
+        'flex-direction: row;'
+        'flex-wrap: nowrap;'
+
+        Pode-se utilizar a shorthand 'flex-flow':
+
+        'flex-flow: row nowrap;'
+
