@@ -1,5 +1,18 @@
 ANOTAÇÕES DE flex-direction. 
 
+ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
+    Lembrar que o 'display: flex;' vai apenas no container pai, e todas as configurações serão feitas nele também. inclusive também para a centralização de div.
+
+    Para centralizar uma div no container pai, dá para seguir o código padrão inicial:
+
+    container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 > direções (direction) 
     Só existem 3 direções para orientar o flex-direction
         Por padrão, o flex direction sempre vai iniciar em 'flex-direction: row;' ou seja, em linha, da esquerda para a direita.
@@ -39,7 +52,7 @@ ANOTAÇÕES DE flex-direction.
 > Alinhamento nos eixos flexbox
     (ver as imagens sobre justify-content para entender melhor como usar cada uma delas)
 
-    >> justify-content
+        >> justify-content
 
     A princípio vale lembrar que os justify contents serão aplicados de acordo com o 'main-axis' levando em consideração o seu 'main-start' e 'main-end' independente da 'direction' definida, seja 'row' ou 'column'.
 
@@ -50,10 +63,10 @@ ANOTAÇÕES DE flex-direction.
 
     'justify-content: space-between; / space-evenly; / space-around;
     (Recomendo ver imagem de justify-content nas anotações)
-    
+
     OBS: o 'justify-content: around;' nos items posicionados próximos ao 'main-start' e 'main-end' tem os espaços das extremidades pela metade dos valores normais para uma centralização mais fluida.
 
-    >> align-items
+        >> align-items
 
     A princípio vale lembrar que o align-items serão aplicados de acordo com a configuração do 'cross-axis' levando em consideração o seu 'cross-start' e 'cross-end' independenteda 'direction' definida.
 
