@@ -1,0 +1,20 @@
+ANOTAÇÕES DE flex-direction. 
+
+> direções (direction) 
+    Só existem 3 direções para orientar o flex-direction
+        Por padrão, o flex direction sempre vai iniciar em 'flex-direction: row;' ou seja, em linha, da esquerda para a direita.
+        
+        'flex-direction: row-reverse;' para alocar os items do container pai de flex-box da direita para a esquerda (contrário ao 'flex-direction: row;'). 
+
+        'flex-direction: column;' para alocar os items do container pai de flex-box verticalmente como em uma coluna de cima para baixo.
+
+        'flex-direction: column-reverse' para alocar os items do container pai de flex-box verticalmente de baixo para cima.
+
+> Eixos (axis)
+    (Ver a imagem anexada na pasta de flex-box referente aos eixos)
+    Existem dois tipos de eixos, os 'main-axis' e 'cross-axis'.
+    
+    No 'main-axis' podemos configurar o 'main-start' e o 'main-end' que define a orientação dos items do container em uma linha POR PADRÃO DO NOSSO IDIOMA da esquerda para a direita horizontalmente. 
+
+    No 'cross-axis' podemos configurar o 'cross-start'(cima) e o 'cross-end'(baixo) que define a orientação dos items do container de cima para baixo verticalmente POR PADRÃO DO NOSSO IDIOMA.
+    
