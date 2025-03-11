@@ -36,3 +36,31 @@ ANOTAÇÕES DE flex-direction.
 
         'flex-flow: row nowrap;'
 
+> Alinhamento nos eixos flexbox
+    (ver as imagens sobre justify-content para entender melhor como usar cada uma delas)
+
+    >> justify-content
+
+    A princípio vale lembrar que os justify contents serão aplicados de acordo com o 'main-axis' levando em consideração o seu 'main-start' e 'main-end' independente da 'direction' definida, seja 'row' ou 'column'.
+
+    'justify-content: flex-start; / flex-end; / center;'
+        'flex-start' = Vai posicionar os itens no 'main-start'.
+        'flex-end' = Vai posicionar os itens no 'main-end'.
+        'center' = Vai posicionar os itens entre o 'main-start' e o 'main-end'.
+
+    'justify-content: space-between; / space-evenly; / space-around;
+    (Recomendo ver imagem de justify-content nas anotações)
+    
+    OBS: o 'justify-content: around;' nos items posicionados próximos ao 'main-start' e 'main-end' tem os espaços das extremidades pela metade dos valores normais para uma centralização mais fluida.
+
+    >> align-items
+
+    A princípio vale lembrar que o align-items serão aplicados de acordo com a configuração do 'cross-axis' levando em consideração o seu 'cross-start' e 'cross-end' independenteda 'direction' definida.
+
+    Por padrão, o 'align-items' vai ter um valor 'stretch', ou seja, esticado para a altura do container caso ele possua alguma altura.
+
+    Seguindo a mesma lógica do justify-content, o align-items também vai posicionar seus itens, porém, verticalmente e limitado as 3 propriedades iniciais:
+
+    'align-items: flex-start; / flex-end; / center;'
+
+    
