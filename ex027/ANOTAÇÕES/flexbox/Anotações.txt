@@ -18,3 +18,10 @@ ANOTAÇÕES DE flex-direction.
 
     No 'cross-axis' podemos configurar o 'cross-start'(cima) e o 'cross-end'(baixo) que define a orientação dos items do container de cima para baixo verticalmente POR PADRÃO DO NOSSO IDIOMA.
     
+> flex-wrap (empacotamento/encapsulamento)
+    Por padrão, o 'flex-wrap' possui o valor 'flex-wrap: nowrap;' que não permite uma quebra automática dos itens para a direção do eixo transversal definida (cima ou baixo ou 'cross-start'/'cross-end').
+
+    Porém, quando há ativação dessa propriedade para 'flex-wrap: wrap;' o item tende a fazer uma quebra em direção ao eixo transversal definido
+
+        >> Há também o 'flex-wrap: wrap-reverse;' que vai inverter a direção transversal da quebra de itens dentro do container.
+
