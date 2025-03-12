@@ -85,6 +85,37 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
         Por padrão o 'align-content' tem valor 'stretch'. Mas ele também tem as mesmas possibilidades de usar os valores do justify-content. Ou seja: 
             'align-content: flex-start / flex-end / space-between; / space-evenly; / space-around;
 
+> Anatomia dos itens flexbox (flex007)
+    >> order
+
+    A propriedade 'order' atribui ao item a ordem em que ele irá aparecer dentro do container que estiverem inseridos. 
+
+    Exemplo: 'order:-1' aparecerá primeiro que o 'order:0' e antes que o 'order:1'.
+
+    Todo item em flexbox terá 'order:0' por padrão
+
+    Se ambos os valores, por exemplo: A e B tiverem 'order:0' no seu CSS, então a página irá priorizar o item que vier primeiro dentro do HTML, ou seja, se o A for colocado antes do item B, então ele vai tender a aparecer primeiro, mesmo tendo o valor de order igual.
+
+    >> align-self
+
+    * Funciona diretamente no cross-axis
+
+    * Serve para alinhar cada item dentro do container  individualmente, já que essa propriedade se aplica individualmente neles.
+
+    * Composto por 5 valores:
+
+        >>> align-self: auto;
+
+            Vai herdar a caracteristica do alinhamento vertical do container pai, seja ele 'align-item' ou 'align-content'.
+
+        >>> align-self: flex-start; : Início do container
+
+        >>> align-self: flex-end; : Final do container
+
+        >>> align-self: center; : Centraliza o item
+
+        >>> align-stretch; : Vai puxar o item para fazer uma ocupação completa do eixo transversal do container.
+
 
 
 
