@@ -78,7 +78,9 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
 
         >> align-content
 
-        Alinha os elementos no eixo transversal mas quando eles estão empacotados.
+        Alinha os elementos no eixo transversal mas quando eles estão empacotados com a utilização do 'flex-wrap'.
+
+        obs: Só se usa 'align-content' quando se está ativo o 'flex-wrap: wrap:'
 
         Por padrão o 'align-content' tem valor 'stretch'. Mas ele também tem as mesmas possibilidades de usar os valores do justify-content. Ou seja: 
             'align-content: flex-start / flex-end / space-between; / space-evenly; / space-around;
