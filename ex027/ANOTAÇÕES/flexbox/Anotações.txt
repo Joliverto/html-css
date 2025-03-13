@@ -117,7 +117,10 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
         >>> align-stretch; : Vai puxar o item para fazer uma ocupação completa do eixo transversal do container.
 
 > Propriedade flex-basis em flexbox
-    valor 'auto' padrão.
+    Valor 'auto' padrão. Ou seja, o tamanho de cada item vai se adaptar ao tamanho do conteúdo que tiver dentro dele.
+
+    Os valores dessa propriedade podem ser definidas por pixels, contanto que eles não ultrapassem o valor do container para que não "vazem".
+        Caso o flex-basis receba um valor em pixels, o item dentro do container irá tentar se adaptar com esse tamanho na direção do 'row' ou 'column', porém o valor dele pode sofrer alguma alteração para tentar se adaptar a determinadas resoluções diferentes.
 
 
 
