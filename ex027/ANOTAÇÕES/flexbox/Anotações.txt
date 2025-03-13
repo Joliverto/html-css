@@ -122,6 +122,15 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
     Os valores dessa propriedade podem ser definidas por pixels, contanto que eles não ultrapassem o valor do container para que não "vazem".
         Caso o flex-basis receba um valor em pixels, o item dentro do container irá tentar se adaptar com esse tamanho na direção do 'row' ou 'column', porém o valor dele pode sofrer alguma alteração para tentar se adaptar a determinadas resoluções diferentes.
 
+> Controle do tamanho de itens flexíveis (flex-shrink E flex-grow)
+
+    Por padrão: 'flex-shrink: 1;' (Pode diminuir)
+                'flex-grow: 0;' (Não pode aumentar)
+
+    O valor 1 ativa a propriedade, e o valor 0 desliga. 
+
+    Caso o 'flex-grow: 1;' esteja ativado e o flex-shrink também e tentarem diminuir o container, os items vão vazar do container criando um overflow.  
+
 
 
 
