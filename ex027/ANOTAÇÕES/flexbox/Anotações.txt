@@ -116,6 +116,9 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
 
         >>> align-stretch; : Vai puxar o item para fazer uma ocupação completa do eixo transversal do container.
 
+> Propriedade flex-basis em flexbox
+    valor 'auto' padrão.
+
 
 
 
