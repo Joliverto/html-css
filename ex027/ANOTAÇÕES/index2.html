@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de flexbox</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        div.container {
+            background-color: lightgray;
+            border-radius: 20px;
+
+            display: flex;
+        }
+
+        div.item {
+            background-color: yellow;
+            margin: 20px;
+            border: 7px solid darkblue;
+            border-radius: 20px;
+
+            height: 150px;
+
+            flex-flow: row nowrap;
+            flex-basis: 250px;
+        }
+
+        div.container > div#cx1 {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div.container > div#cx2 {
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+
+        div.container > div#cx3 {
+            flex-shrink: 2;
+            flex-grow: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+        <h1>Treinamento de flexboxes</h1>
+        <div class="container">
+            <div class="item" id="cx1"></div>
+            <div class="item" id="cx2"></div>
+            <div class="item" id="cx3"></div>
+        </div>
+</body>
+</html>

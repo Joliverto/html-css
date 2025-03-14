@@ -131,6 +131,9 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
 
     Caso o 'flex-grow: 1;' esteja ativado e o flex-shrink também e tentarem diminuir o container, os items vão vazar do container criando um overflow.  
 
+    Além disso, a propriedade 'flex-grow e flex-shrink' podem receber valores acima de 0 e 1, fazendo com que os efeitos aplicados no aumento ou diminuição do item no conteiner tenha uma tendencia a mudar seu tamanho PROPORCIONALMENTE ao "dobro(2)", "triplo(3)" e assim suscetivamente... 
+    (Qualquer dúvida sobre essa explicação, acessar a aula do link: https://www.youtube.com/watch?v=Le_rq-Cz_mo)
+
 
 
 
