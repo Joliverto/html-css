@@ -134,6 +134,26 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
     Além disso, a propriedade 'flex-grow e flex-shrink' podem receber valores acima de 0 e 1, fazendo com que os efeitos aplicados no aumento ou diminuição do item no conteiner tenha uma tendencia a mudar seu tamanho PROPORCIONALMENTE ao "dobro(2)", "triplo(3)" e assim suscetivamente... 
     (Qualquer dúvida sobre essa explicação, acessar a aula do link: https://www.youtube.com/watch?v=Le_rq-Cz_mo)
 
+    >> A propriedade 'flex:'
+    
+        A propriedade flex serve para ser uma SHORTHAND das propriedades 'flex-grow' + 'flex-shrink' + 'flex-basis' RESPECTIVAMENTE. Ou seja: 'flex: 0 1 150px;' 
+        
+            como se eu estivesse definindo um grow=0, shrink=1 e 150px pro meu flex-basis que define o tamanho da direction do meu item dentro do container!
+
+
+        O valor padrão para essa shorthand é: 'flex: 0 1 auto;' ou
+                                              'flex: initial;'
+        
+        Para não deixar que os itens sejam flexíveis com essas características se utiliza o 'flex: 0 0 auto;' ou
+                                     'flex: none;'
+
+        Para deixar o item no máximo de sua flexibilidade, pode se utilziar a shorthand 'flex: 1 1 auto;' ou
+                             'flex: auto;'
+
+        Adicional: Quando se utiliza apenas um 'flex: 3;' sem os valores do 'shrink' e 'flex-basis' dentro da shorthand, significa que só estou declarando o valor do 'grow' e os outros automaticamente são representados pelos seus valores padrões que é '1' e 'auto', ou seja, para utilização dessa shorthand, o valor final dela seria: 'flex: 3 1 auto;'
+
+        
+
 
 
 
