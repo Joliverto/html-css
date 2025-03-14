@@ -6,14 +6,17 @@
     <title>Menu Flexbox</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     
     <header>
 
         <h1>Meu Site</h1>
 
-        <menu>
+        <span class="material-symbols-outlined" id="iconmenu" onclick="clickMenu()">menu</span>
+
+        <menu id="itens">
             <nav>Opção 1</nav>
             <nav>Opção 2</nav>
             <nav>Opção 3</nav>
@@ -38,6 +41,28 @@
         </section>
 
     </main>
+
+    <script>
+
+        function clickMenu() {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                itens.style.display = 'flex'
+                iconmenu.style.display = 'none'
+            } else {
+                // itens.style.display = 'none'
+                iconmenu.style.display = 'block'
+            }
+        }
+
+    </script>
 
 </body>
 </html>
