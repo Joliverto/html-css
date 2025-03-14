@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    header > h1 {
+        align-self: flex-start;
+    }
+
+    header > menu {
+        flex-flow: row nowrap;
+        justify-content: start;
+    }
+
+    menu > nav {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        flex-flow: row nowrap;
+
+        justify-content: space-between;
+        
+    }
+
+    header h1 {
+        margin-bottom: -10px;
+    }
+
+    menu {
+        flex-flow: row nowrap;
+    }
+
+    menu > nav {
+        margin: 5px;
+    }
+
+    section {
+        align-self: center;
+        width: 800px;
+    }
+
+}

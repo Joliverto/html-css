@@ -74,7 +74,7 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
 
     Seguindo a mesma lógica do justify-content, o align-items também vai posicionar seus itens, porém, transversalmente ao eixo principal e limitado as 3 propriedades iniciais:
 
-    'align-items: flex-start; / flex-end; / center;'
+    'align-items: flex-start; / flex-end; / center; e padrão 'stretch'.
 
         >> align-content
 
@@ -135,7 +135,7 @@ ATENÇÃO: (CENTRALIZAÇÃO DE DIV)
     (Qualquer dúvida sobre essa explicação, acessar a aula do link: https://www.youtube.com/watch?v=Le_rq-Cz_mo)
 
     >> A propriedade 'flex:'
-    
+
         A propriedade flex serve para ser uma SHORTHAND das propriedades 'flex-grow' + 'flex-shrink' + 'flex-basis' RESPECTIVAMENTE. Ou seja: 'flex: 0 1 150px;' 
         
             como se eu estivesse definindo um grow=0, shrink=1 e 150px pro meu flex-basis que define o tamanho da direction do meu item dentro do container!
